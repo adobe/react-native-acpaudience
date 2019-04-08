@@ -47,11 +47,19 @@ ACPAudience.registerExtension();
 ```
 
 ##### Send signals to Audience Manager:
+```javascript
+ACPAudience.signalWithData({"yourDataKey": "yourDataValue"}).then(profile => console.log("AdobeExperienceSDK: Visitor Profile: " + profile));
+```
 
 ##### Reset identifiers and profiles:
+```javascript
+ACPAudience.reset();
+```
 
-##### Get the visitor profile
-
+##### Get the visitor profile:
+```javascript
+ACPAudience.getVisitorProfile().then(profile => console.log("AdobeExperienceSDK: Visitor Profile: " + profile));
+```
 
 ## License
 

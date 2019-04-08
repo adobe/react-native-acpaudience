@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		216082EB225BA6FE0057DDA0 /* libACPAudience_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 216082EA225BA6FE0057DDA0 /* libACPAudience_iOS.a */; };
 		B3E7B58A1CC2AC0600A0062D /* RCTACPAudience.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RCTACPAudience.m */; };
-		E5046C32638DB1F1E7D734DA /* libPods-RCTACPAudience.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EF52F62C502B0B299C6F55 /* libPods-RCTACPAudience.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,11 +27,8 @@
 		134814201AA4EA6300B7C361 /* libRCTACPAudience.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTACPAudience.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		216082EA225BA6FE0057DDA0 /* libACPAudience_iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libACPAudience_iOS.a; sourceTree = "<group>"; };
 		216082EC225BA7050057DDA0 /* ACPAudience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACPAudience.h; path = include/ACPAudience.h; sourceTree = "<group>"; };
-		85BE5EB52CE440B577C8388C /* Pods-RCTACPAudience.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTACPAudience.debug.xcconfig"; path = "Target Support Files/Pods-RCTACPAudience/Pods-RCTACPAudience.debug.xcconfig"; sourceTree = "<group>"; };
-		B07009F0F036A843F64BFE8A /* Pods-RCTACPAudience.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTACPAudience.release.xcconfig"; path = "Target Support Files/Pods-RCTACPAudience/Pods-RCTACPAudience.release.xcconfig"; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RCTACPAudience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTACPAudience.h; path = src/RCTACPAudience.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RCTACPAudience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTACPAudience.m; path = src/RCTACPAudience.m; sourceTree = "<group>"; };
-		E4EF52F62C502B0B299C6F55 /* libPods-RCTACPAudience.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTACPAudience.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +37,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				216082EB225BA6FE0057DDA0 /* libACPAudience_iOS.a in Frameworks */,
-				E5046C32638DB1F1E7D734DA /* libPods-RCTACPAudience.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,14 +60,6 @@
 			path = libs;
 			sourceTree = "<group>";
 		};
-		56E24CC46272FBF1DB0B3938 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E4EF52F62C502B0B299C6F55 /* libPods-RCTACPAudience.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
@@ -80,19 +67,7 @@
 				B3E7B5881CC2AC0600A0062D /* RCTACPAudience.h */,
 				B3E7B5891CC2AC0600A0062D /* RCTACPAudience.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
-				9C8D0D6F97E6F7869776B7A8 /* Pods */,
-				56E24CC46272FBF1DB0B3938 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		9C8D0D6F97E6F7869776B7A8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				85BE5EB52CE440B577C8388C /* Pods-RCTACPAudience.debug.xcconfig */,
-				B07009F0F036A843F64BFE8A /* Pods-RCTACPAudience.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +77,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RCTACPAudience" */;
 			buildPhases = (
-				0F76F53443AD979D137FC717 /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
@@ -146,31 +120,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0F76F53443AD979D137FC717 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RCTACPAudience-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
@@ -267,7 +216,6 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85BE5EB52CE440B577C8388C /* Pods-RCTACPAudience.debug.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -287,7 +235,6 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B07009F0F036A843F64BFE8A /* Pods-RCTACPAudience.release.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",

@@ -47,7 +47,6 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		C5CFE7F168E84C97932798AA /* libRCTACPAudience.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 973EF47629FD4F73BBB6FC30 /* libRCTACPAudience.a */; };
-		CD35311A8D8C4BCC92A618D8 /* libRCTACPAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C24D4923EF01473498BE17B7 /* libRCTACPAnalytics.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
@@ -418,7 +417,6 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				CD35311A8D8C4BCC92A618D8 /* libRCTACPAnalytics.a in Frameworks */,
 				0819ADB1E5AD42D1BE8698E2 /* libRCTACPCore.a in Frameworks */,
 				C5CFE7F168E84C97932798AA /* libRCTACPAudience.a in Frameworks */,
 			);

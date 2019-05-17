@@ -61,6 +61,8 @@ ACPAudience.reset();
 ACPAudience.getVisitorProfile().then(profile => console.log("AdobeExperienceSDK: Visitor Profile: " + profile));
 ```
 
-## License
+## Contributing
+See [CONTRIBUTING](CONTRIBUTING.md)
 
-See LICENSE.md
+## License
+See [LICENSE](LICENSE)

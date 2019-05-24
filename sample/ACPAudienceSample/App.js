@@ -25,7 +25,7 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
         <ScrollView contentContainerStyle={{ marginTop: 75 }}>
-        <Text style={styles.welcome}>ACPAnalytics Test App</Text>
+        <Text style={styles.welcome}>ACPAudience Test App</Text>
         <Button title="ACPCore::extensionVersion()" onPress={() => this.coreExtensionVersion()}/>
         <Button title="ACPAudience::extensionVersion()" onPress={() => this.audienceExtensionVersion()}/>
         <Button title="ACPAudience::reset()" onPress={() => this.resetAudience()}/>

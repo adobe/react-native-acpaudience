@@ -5,7 +5,7 @@ How to run the sample app:
 #### Run instructions for iOS:
 
 ```
-cd /sample/ACPAudienceSample/ && npm install && react-native run-ios
+cd sample/ACPAudienceSample/ && npm install && react-native run-ios
 ```
 or
 
@@ -18,7 +18,7 @@ Hit the Run button
 Have an Android emulator running (quickest way to get started), or a device connected. https://developer.android.com/studio/run/emulator-commandline
 
 ```
-cd /sample/ACPAudienceSample/ && npm install && react-native run-android
+cd sample/ACPAudienceSample/ && npm install && react-native run-android
 ```
 
 ### Troubleshooting

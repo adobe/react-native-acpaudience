@@ -25,6 +25,10 @@ import java.util.Map;
 public class RCTACPAudienceMapUtil {
 
     public static Map<String, Object> toMap(ReadableMap readableMap) {
+        if (readableMap == null) {
+            return null;
+        }
+
         Map<String, Object> map = new HashMap<>();
         ReadableMapKeySetIterator iterator = readableMap.keySetIterator();
 
@@ -58,6 +62,10 @@ public class RCTACPAudienceMapUtil {
     }
 
     public static Map<String, String> toStringMap(ReadableMap readableMap) {
+        if (readableMap == null) {
+            return null;
+        }
+
         Map<String, String> map = new HashMap<>();
         ReadableMapKeySetIterator iterator = readableMap.keySetIterator();
 

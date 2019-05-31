@@ -31,7 +31,7 @@ react-native link @adobe/react-native-acpaudience
 ```
 
 ## Tests
-This project contains jest unit tests, to run the tests locally:
+This project contains jest unit tests which are contained in the `__tests__` directory, to run the tests locally:
 ```
 make run-tests-locally
 ```

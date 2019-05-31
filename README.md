@@ -30,6 +30,12 @@ npm install @adobe/react-native-acpaudience
 react-native link @adobe/react-native-acpaudience
 ```
 
+## Tests
+This project contains jest unit tests, to run the tests locally:
+```
+make run-tests-locally
+```
+
 ## Usage
 
 ### [Audience Manager](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager)

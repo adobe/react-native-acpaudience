@@ -16,7 +16,7 @@ cd sample/ACPAudienceSample/ && npm install && react-native run-ios
 
 or
 ```
-cd sample/ACPCoreSample/ && npm install
+cd sample/ACPAudienceSample/ && npm install
 ```
 Then, open the Xcode project under the `ios` directory and hit run.
 

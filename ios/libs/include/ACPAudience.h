@@ -4,7 +4,7 @@
 //
 //  Copyright 1996-2019. Adobe, Inc. All Rights Reserved
 //
-//  Audience Version: 2.0.0
+//  Audience Version: 4.0.2
 
 #import <Foundation/Foundation.h>
 

@@ -40,13 +40,13 @@ npm install @adobe/react-native-acpaudience
 
 
 ```bash
-$ react-native link @adobe/react-native-acpaudience
+react-native link @adobe/react-native-acpaudience
 ```
 
 *Note* For `iOS` using `cocoapods`, run:
 
 ```bash
-$ cd ios/ && pod install
+cd ios/ && pod install
 ```
 
 ## Tests

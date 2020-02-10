@@ -90,6 +90,8 @@ Audience.registerExtension();
 
 ##### **Javascript**
 ```javascript
+import {ACPAudience} from '@adobe/react-native-acpaudience';
+
 ACPAudience.registerExtension();
 ```
 

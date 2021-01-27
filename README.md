@@ -6,7 +6,7 @@
 [![CircleCI](https://img.shields.io/circleci/project/github/adobe/react-native-acpaudience/main.svg?logo=circleci)](https://circleci.com/gh/adobe/workflows/react-native-acpaudience) 
 [![license](https://img.shields.io/npm/l/@adobe/react-native-acpaudience.svg)](https://github.com/adobe/react-native-acpaudience/blob/main/LICENSE)
 
-`@adobe/react-native-acpaudience` is a wrapper around the iOS and Android [AEP Audience Manager SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) to allow for integration with React Native applications. Functionality to enable Adobe Audience Manager is provided entirely through JavaScript documented below.
+`@adobe/react-native-acpaudience` is a wrapper around the iOS, tvOS and Android [AEP Audience Manager SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) to allow for integration with React Native applications. Functionality to enable Adobe Audience Manager is provided entirely through JavaScript documented below.
 
 
 ## Installation

@@ -18,12 +18,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"  
-  s.ios.vendored_frameworks = 'ios/libs/ACPAudience.xcframework'
-  s.ios.frameworks = 'UIKit', 'SystemConfiguration', 'WebKit', 'UserNotifications'
-  s.ios.library = 'sqlite3.0', 'c++', 'z'
-
-  s.tvos.vendored_frameworks = 'ios/libs/ACPAudienceTV.xcframework'
-  s.tvos.frameworks = 'SystemConfiguration'
-  s.tvos.library = 'sqlite3.0', 'c++', 'z'
-  
+  s.dependency "ACPAudience"
 end

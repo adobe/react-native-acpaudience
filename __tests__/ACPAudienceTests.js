@@ -23,12 +23,6 @@ describe('ACPAudience', () => {
     expect(spy).toHaveBeenCalled();
   });
 
-  test('registerExtension is called', async () => {
-    const spy = jest.spyOn(NativeModules.ACPAudience, 'registerExtension');
-    await ACPAudience.registerExtension();
-    expect(spy).toHaveBeenCalled();
-  });
-
   test('rest is called', async () => {
     const spy = jest.spyOn(NativeModules.ACPAudience, 'reset');
     await ACPAudience.reset();

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02C8B39F8CEA78C330D364CB /* libPods-RCTACPAudience.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E123B89EDE95C24742A551B1 /* libPods-RCTACPAudience.a */; };
+		863A393A7537C90270CBB435 /* libPods-RCTACPAudience.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E96383DB0C0E3753479B3005 /* libPods-RCTACPAudience.a */; };
 		B3E7B58A1CC2AC0600A0062D /* RCTACPAudience.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RCTACPAudience.m */; };
 /* End PBXBuildFile section */
 
@@ -25,11 +25,11 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRCTACPAudience.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTACPAudience.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		72B53BC4033A98C3D68CACD0 /* Pods-RCTACPAudience.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTACPAudience.release.xcconfig"; path = "Target Support Files/Pods-RCTACPAudience/Pods-RCTACPAudience.release.xcconfig"; sourceTree = "<group>"; };
+		2E4206080581650AFAA6780A /* Pods-RCTACPAudience.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTACPAudience.debug.xcconfig"; path = "Target Support Files/Pods-RCTACPAudience/Pods-RCTACPAudience.debug.xcconfig"; sourceTree = "<group>"; };
+		556C5DAA8F0EC9055F62E5C7 /* Pods-RCTACPAudience.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTACPAudience.release.xcconfig"; path = "Target Support Files/Pods-RCTACPAudience/Pods-RCTACPAudience.release.xcconfig"; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RCTACPAudience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTACPAudience.h; path = src/RCTACPAudience.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RCTACPAudience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTACPAudience.m; path = src/RCTACPAudience.m; sourceTree = "<group>"; };
-		C83C83D98679F30A0E474878 /* Pods-RCTACPAudience.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCTACPAudience.debug.xcconfig"; path = "Target Support Files/Pods-RCTACPAudience/Pods-RCTACPAudience.debug.xcconfig"; sourceTree = "<group>"; };
-		E123B89EDE95C24742A551B1 /* libPods-RCTACPAudience.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTACPAudience.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96383DB0C0E3753479B3005 /* libPods-RCTACPAudience.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCTACPAudience.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02C8B39F8CEA78C330D364CB /* libPods-RCTACPAudience.a in Frameworks */,
+				863A393A7537C90270CBB435 /* libPods-RCTACPAudience.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,14 +52,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20617AD873A291DE477AADC9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E123B89EDE95C24742A551B1 /* libPods-RCTACPAudience.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
@@ -67,15 +59,23 @@
 				B3E7B5891CC2AC0600A0062D /* RCTACPAudience.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				C52B83D6E758DC4CB2D607D7 /* Pods */,
-				20617AD873A291DE477AADC9 /* Frameworks */,
+				7B7652896947488970454D57 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		7B7652896947488970454D57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E96383DB0C0E3753479B3005 /* libPods-RCTACPAudience.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C52B83D6E758DC4CB2D607D7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C83C83D98679F30A0E474878 /* Pods-RCTACPAudience.debug.xcconfig */,
-				72B53BC4033A98C3D68CACD0 /* Pods-RCTACPAudience.release.xcconfig */,
+				2E4206080581650AFAA6780A /* Pods-RCTACPAudience.debug.xcconfig */,
+				556C5DAA8F0EC9055F62E5C7 /* Pods-RCTACPAudience.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RCTACPAudience" */;
 			buildPhases = (
-				0D81A0CBE79B22F92B5B58BA /* [CP] Check Pods Manifest.lock */,
+				5B7CC2723A3FE4FF03432967 /* [CP] Check Pods Manifest.lock */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
@@ -134,7 +134,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0D81A0CBE79B22F92B5B58BA /* [CP] Check Pods Manifest.lock */ = {
+		5B7CC2723A3FE4FF03432967 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,7 +253,7 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C83C83D98679F30A0E474878 /* Pods-RCTACPAudience.debug.xcconfig */;
+			baseConfigurationReference = 2E4206080581650AFAA6780A /* Pods-RCTACPAudience.debug.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -274,7 +274,7 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72B53BC4033A98C3D68CACD0 /* Pods-RCTACPAudience.release.xcconfig */;
+			baseConfigurationReference = 556C5DAA8F0EC9055F62E5C7 /* Pods-RCTACPAudience.release.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",

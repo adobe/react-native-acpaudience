@@ -75,7 +75,7 @@ ACPAudience.extensionVersion().then(version => console.log("AdobeExperienceSDK: 
 
 ##### Registering the extension with ACPCore:
 
-> Note: It is recommended to initialize the SDK via native code inside your AppDelegate and MainApplication in iOS and Android respectively. However, you can still initialize the SDK in Javascript.
+> Note: It is recommended to initialize the SDK via native code inside your AppDelegate and MainApplication in iOS and Android respectively. 
 
 ##### **iOS**
 ```objective-c

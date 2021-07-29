@@ -75,7 +75,7 @@ ACPAudience.extensionVersion().then(version => console.log("AdobeExperienceSDK: 
 
 ##### Registering the extension with ACPCore:
 
-> Note: It is recommended to initialize the SDK via native code inside your AppDelegate and MainApplication in iOS and Android respectively. However, you can still initialize the SDK in Javascript. For more information see how to initialize [Core](https://github.com/adobe/react-native-acpcore#initializing-the-sdk). 
+> Note: It is recommended to initialize the SDK via native code inside your AppDelegate and MainApplication in iOS and Android respectively. However, you can still initialize the SDK in Javascript.
 
 ##### **iOS**
 ```objective-c
@@ -89,13 +89,6 @@ ACPAudience.extensionVersion().then(version => console.log("AdobeExperienceSDK: 
 import com.adobe.marketing.mobile.Audience;
 
 Audience.registerExtension();
-```
-
-##### **Javascript**
-```javascript
-import {ACPAudience} from '@adobe/react-native-acpaudience';
-
-ACPAudience.registerExtension();
 ```
 
 ##### Send signals to Audience Manager:

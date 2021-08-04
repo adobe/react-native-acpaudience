@@ -8,6 +8,9 @@
 
 `@adobe/react-native-acpaudience` is a wrapper around the iOS, tvOS and Android [AEP Audience Manager SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) to allow for integration with React Native applications. Functionality to enable Adobe Audience Manager is provided entirely through JavaScript documented below.
 
+## Requirements
+- `@adobe/react-native-acpaudience 1.x` requires `React Native 0.44.+`
+- `@adobe/react-native-acpaudience 2.x` requires `React Native 0.60.+`
 
 ## Installation
 

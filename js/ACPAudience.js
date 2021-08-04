@@ -26,13 +26,6 @@ module.exports = {
   },
 
   /**
-   * @brief Registers the ACPAudience extension with the Core Event Hub.
-   */
-  registerExtension() {
-    RCTACPAudience.registerExtension();
-  },
-
-  /**
    * @brief Resets the Audience Manager UUID and purges the current visitor profile from NSUserDefaults.
    * @discussion Audience reset also clears the current in-memory DPID and DPUUID variables.
    */

@@ -45,15 +45,6 @@ public class RCTACPAudienceModule extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
-  public void registerExtension() {
-    try {
-      Audience.registerExtension();
-    } catch (InvalidInitException e) {
-      Log.d(getName(), "Registering Audience extension failed with error: " + e.getMessage());
-    }
-  }
-
-  @ReactMethod
   public void reset() {
     Audience.reset();
   }

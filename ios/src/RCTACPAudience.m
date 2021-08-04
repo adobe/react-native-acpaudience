@@ -26,10 +26,6 @@ RCT_EXPORT_METHOD(extensionVersion: (RCTPromiseResolveBlock) resolve rejecter:(R
     resolve([ACPAudience extensionVersion]);
 }
 
-RCT_EXPORT_METHOD(registerExtension) {
-    [ACPAudience registerExtension];
-}
-
 RCT_EXPORT_METHOD(reset) {
     [ACPAudience reset];
 }
@@ -46,6 +42,5 @@ RCT_EXPORT_METHOD(signalWithData: (NSDictionary* __nullable) data
         resolve(visitorProfile);
     }];
 }
-
 
 @end

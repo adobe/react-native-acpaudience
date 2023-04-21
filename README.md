@@ -59,7 +59,7 @@ make run-tests-locally
 
 ## Usage
 
-### [Audience Manager](https://developer.adobe.com/client-sdks/previous-versions/documentation/adobe-audience-manager/)
+### Audience Manager
 
 ##### Importing the extension:
 ```javascript

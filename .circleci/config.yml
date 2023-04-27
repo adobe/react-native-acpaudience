@@ -59,6 +59,28 @@ jobs:
           name: Unit Tests
           command: make run-tests
 
+
+  build-sample-app-android:
+    docker:
+      - image: circleci/android:api-28-node
+    steps:
+      - checkout
+
+      - run:
+          name: Install react-native-cli
+          command: sudo npm install -g react-native-cli
+
+      - run:
+          name: Copy changes into sample app
+          command: make copy-to-sample
+
+      - run:
+          name: Building Android Sample App
+          command: |
+            export NODE_OPTIONS=--max-old-space-size=8192
+            make build-sample-android
+
+
   build-sample-app-ios:
     macos:
       xcode: "12.0"

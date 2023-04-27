@@ -27,10 +27,21 @@ android {
 }
 
 repositories {
+    exclusiveContent {
+        filter {
+            includeGroup "com.facebook.react"
+        }
+        forRepository {
+            maven {
+                url "$rootDir/../node_modules/react-native/android"
+            }
+        }
+    }
     google()
     mavenCentral()
 }
 
 dependencies {
+    implementation "com.facebook.react:react-native:0.64.4"
     api "com.adobe.marketing.mobile:audience:1.+"
 }

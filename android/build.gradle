@@ -31,23 +31,11 @@ repositories {
     mavenCentral()
 }
 
-allprojects {
-    repositories {
-        exclusiveContent {
-           filter {
-               includeGroup "com.facebook.react"
-           }
-           forRepository {
-               maven {
-                   url "$rootDir/../node_modules/react-native/android"
-               }
-           }
-       }
-
-        google()
-        mavenCentral()
-    }
+repositories {
+    google()
+    mavenCentral()
 }
+
 
 dependencies {
     implementation "com.facebook.react:react-native:0.67.3"

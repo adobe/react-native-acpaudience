@@ -28,9 +28,11 @@ android {
 
 repositories {
     google()
-     content {
-                excludeGroup "com.facebook.react"
-     }
+    mavenCentral {
+        content {
+            excludeGroup "com.facebook.react"
+        }
+    }
 }
 
 dependencies {

@@ -25,7 +25,7 @@
     "name": "Adobe Experience Platform SDK Team"
   },
   "peerDependencies": {
-    "react-native": "0.64.4",
+    "react-native": "0.67.3",
     "@adobe/react-native-acpcore": ">=2.0.0"
   },
   "devDependencies": {
@@ -36,7 +36,7 @@
     "flow-typed": "^2.5.2",
     "jest": "24.8.0",
     "react": "^16.8.3",
-    "react-native": "0.64.4"
+    "react-native": "0.67.3"
   },
   "jest": {
     "preset": "react-native",

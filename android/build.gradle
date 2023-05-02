@@ -38,13 +38,6 @@ repositories {
 
 
 dependencies {
-    implementation "com.facebook.react:react-native:0.67.3"
+    implementation "com.facebook.react:react-native:+"
     api "com.adobe.marketing.mobile:audience:1.+"
-}
-
-configurations.all {
-       resolutionStrategy {
-           // Remove this override in 0.65+, as a proper fix is included in react-native itself.
-           force "com.facebook.react:react-native:" + "0.67.3"
-    }
 }

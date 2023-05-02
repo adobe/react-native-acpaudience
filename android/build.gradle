@@ -31,12 +31,6 @@ repositories {
     mavenCentral()
 }
 
-repositories {
-    google()
-    mavenCentral()
-}
-
-
 dependencies {
     implementation "com.facebook.react:react-native:+"
     api "com.adobe.marketing.mobile:audience:1.+"
